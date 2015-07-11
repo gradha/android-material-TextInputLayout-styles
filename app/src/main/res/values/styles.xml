@@ -5,13 +5,20 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#2196F3</item>
         <item name="colorPrimaryDark">#1565C0</item>
-        <item name="colorAccent">#ffbE63</item>
+        <item name="colorAccent">#ffbE63</item> <!-- Used for the underline and floating color -->
     </style>
 
     <style name="override_theme" parent="AppTheme">
         <item name="colorPrimary">#FF0000</item>
         <item name="colorPrimaryDark">#00FF00</item>
         <item name="colorAccent">#00FFFF</item>
+        <item name="android:textColorHint">#FF0000</item> <!-- Used for the hint text AND floating when text is filled in -->
+    </style>
+
+    <style name="override_theme2" parent="AppTheme">
+        <item name="colorControlNormal">#7F0000</item> <!-- Used for the underline when not selected -->
+        <item name="colorControlActivated">#007F00</item> <!-- Underline and floating text when active -->
+        <item name="colorControlHighlight">#007F7F</item>
     </style>
 
 </resources>

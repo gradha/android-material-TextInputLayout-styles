@@ -61,4 +61,32 @@
             />
 
     </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+
+        app:theme="@style/override_theme2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Special empty 2"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        app:theme="@style/override_theme2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Special hint2"
+            android:text="This should look different2"
+            />
+
+    </android.support.design.widget.TextInputLayout>
 </LinearLayout>
